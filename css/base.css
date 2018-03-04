@@ -13,7 +13,7 @@
 .serif,
 body,
 .intro-header .post-heading .meta {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Lato', 'Times New Roman', serif;
 }
 .sans-serif,
 h1,
@@ -29,7 +29,7 @@ h6,
 .btn,
 .pager li > a,
 .pager li > span {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 body {
   font-size: 20px;
@@ -49,7 +49,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 800;
+  font-weight: 600;
 }
 a {
   color: #404040;
@@ -153,11 +153,14 @@ hr.small {
     transform: translate3d(0, 100%, 0);
   }
 }
+.slanted {
+  clip-path: polygon(0px 0px, 100% 0px, 100.296% 80.754%, -2px 94.1668%);
+}
 .intro-header {
   background-color: #808080;
   background-position: center center;
   background-attachment: scroll;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 .intro-header .site-heading,
 .intro-header .post-heading,
